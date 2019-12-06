@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 .navbar {
@@ -7,7 +7,7 @@ body {
   color: black;
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
   margin-top: -20px;
   padding-top: 50px;
 }
@@ -16,16 +16,19 @@ body {
 }
 
 #signedbooks {
-  background-color: lightslategray;
   padding: 0;
   margin: auto;
-  display: flex;
-  flex-wrap: nowrap;
   width: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #signedbooks .row {
   align-content: center;
+}
+
+#signedbooks {
+  background-color: white;
 }
 
 .bd-example {
@@ -34,6 +37,14 @@ body {
 
 .main-text {
   color: white;
+}
+
+#email {
+  background-color: #d3d3d3;
+}
+
+footer {
+  background-color: #d3d3d3;
 }
 
 /*# sourceMappingURL=style.css.map */

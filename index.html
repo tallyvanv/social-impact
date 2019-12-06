@@ -12,9 +12,36 @@
 </head>
 <body>
 
-.
+<nav class="navbar navbar-expand-lg border-bottom">
+    <a class="navbar-brand" href="#"><img src="images/bookends-logo.png" width=200></a>
+    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit"><img src="images/lglass.png" width=30></button>
+        </form>
+    </div>
+</nav>
 
+<div class="container-fluid w-100 m-0">
 <div class="bd-example">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -76,7 +103,7 @@
     </div>
 </div>
 
-<div class="container" id="signedbooks">
+<div class="container-fluid py-5" id="signedbooks">
     <div class="row">
         <div class="col">
             <img src="images/book1.jpg" width="115" height="173">
@@ -99,6 +126,23 @@
     </div>
 </div>
 
+<div class="container-fluid py-5 w-100" id="email">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                   placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                I have read and agree to the <a href="#">terms and conditions</a>
+            </label>
+        </div>
+    </form>
+</div>
+
 <div class="about">
     <div class="row">
         <div class="col-md-4">
@@ -117,21 +161,9 @@
         </div>
     </div>
 </div>
-<form>
-    <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-            I have read and agree to the <a href="#">terms and conditions</a>
-        </label>
-    </div>
-</form>
+</div>
 
-<footer class="container pb-5 mb-5">
+<footer class="container-fluid w-100 pb-5">
     <div>
         <hr>
     </div>

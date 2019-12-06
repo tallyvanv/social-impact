@@ -1,30 +1,37 @@
+$maincolor: white;
+$secondcolor: #d3d3d3;
+
 body {
-  margin: 0px;
+  margin: 0;
 }
+
 .navbar {
-  background-color: white;
+  background-color: $maincolor;
   color: black;
   a {
     text-decoration: none;
   }
   position: fixed;
   width: 100%;
-  z-index: 10;
+  z-index: 1000;
   margin-top: -20px;
   padding-top: 50px;
 }
 
 #signedbooks {
-  background-color: lightslategray;
   padding: 0;
   margin: auto;
-  display: flex;
-  flex-wrap: nowrap;
   width: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   .row {
     align-content: center;
   }
+}
+
+#signedbooks {
+  background-color: $maincolor;
 }
 
 .bd-example {
@@ -33,4 +40,12 @@ body {
 
 .main-text {
   color: white;
+}
+
+#email {
+  background-color: $secondcolor;
+}
+
+footer {
+  background-color: $secondcolor;
 }
