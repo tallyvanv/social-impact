@@ -1,1 +1,1 @@
-# social-impact
+# Social Impact: Bookends Bookstore
