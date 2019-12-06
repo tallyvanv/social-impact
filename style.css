@@ -1,8 +1,26 @@
+body {
+  margin: 0px;
+}
+
 .navbar {
   background-color: white;
   position: fixed;
   width: 100%;
-  z-index: 5;
+  z-index: 10;
+  margin: 0px;
+  padding: 0px;
+}
+
+#signedbooks {
+  background-color: lightslategray;
+}
+
+.bd-example {
+  margin-top: 0px;
+}
+
+.main-text {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
