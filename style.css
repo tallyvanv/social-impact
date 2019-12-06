@@ -9,7 +9,7 @@ body {
   width: 100%;
   z-index: 1000;
   margin-top: -20px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .navbar a {
   text-decoration: none;
@@ -40,11 +40,11 @@ body {
 }
 
 #email {
-  background-color: #d3d3d3;
+  background-color: #F8F9FA;
 }
 
 footer {
-  background-color: #d3d3d3;
+  background-color: #F8F9FA;
 }
 
 /*# sourceMappingURL=style.css.map */

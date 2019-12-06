@@ -12,9 +12,9 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg border-bottom">
-    <a class="navbar-brand" href="#"><img src="images/bookends-logo.png" width=200></a>
-    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+<nav class="navbar navbar-expand-lg border-bottom navbar-light">
+    <a class="navbar-brand" href="#"><img src="images/bookends-logo.png" width=150></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -103,30 +103,40 @@
     </div>
 </div>
 
-<div class="container-fluid py-5" id="signedbooks">
-    <div class="row">
-        <div class="col">
-            <img src="images/book1.jpg" width="115" height="173">
+<div class="container-fluid py-5">
+    <div class="d-block text-center mb-0 pb-0">
+        <h1>Our collection of signed books</h1>
+        <hr class="w-25 mt-0 pt-0">
+        <p>Can't make it to a signing? Get a signed book from our previous events.</p>
+    </div>
+    <div class="d-flex" id="signedbooks">
+        <div class="row">
+            <div class="col">
+                <img src="images/book1.jpg" width="115" height="173">
+            </div>
+            <div class="col">
+                <img src="images/book2.jpg" width="115" height="173">
+            </div>
+            <div class="col">
+                <img src="images/book3.jpg" width="115" height="173">
+            </div>
+            <div class="col">
+                <img src="images/book4.jpg" width="115" height="173">
+            </div>
+            <div class="col">
+                <img src="images/book5.jpg" width="115" height="173">
+            </div>
+            <div class="col">
+                <img src="images/book6.jpg" width="115" height="173">
+            </div>
         </div>
-        <div class="col">
-            <img src="images/book2.jpg" width="115" height="173">
-        </div>
-        <div class="col">
-            <img src="images/book3.jpg" width="115" height="173">
-        </div>
-        <div class="col">
-            <img src="images/book4.jpg" width="115" height="173">
-        </div>
-        <div class="col">
-            <img src="images/book5.jpg" width="115" height="173">
-        </div>
-        <div class="col">
-            <img src="images/book6.jpg" width="115" height="173">
-        </div>
+    </div>
+    <div>
+
     </div>
 </div>
 
-<div class="container-fluid py-5 w-100" id="email">
+<div class="container-fluid py-5 w-100 d-flex justify-content-center" id="email">
     <form>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -143,20 +153,17 @@
     </form>
 </div>
 
-<div class="about">
+<div class="container p-5" id="about">
     <div class="row">
         <div class="col-md-4">
             <img src="images/bookshop.jpg" height="300" width="300">
         </div>
         <div class="col-md-8">
             <div class="pt-5 text-dark mt-5">
-                <h2>This First Heading
-                    <span class="text-muted">Will Catch Your Eye</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                    euismod
-                    semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac
-                    cursus
-                    commodo.</p>
+                <h2>About</h2>
+                <hr class="w-25">
+                <p class="lead">Bookends is a legendary New Jersey Landmark!   We are known for our incredible author events and have hosted well over
+                    1,000 authors in the past 15 years!</p>
             </div>
         </div>
     </div>
@@ -164,9 +171,6 @@
 </div>
 
 <footer class="container-fluid w-100 pb-5">
-    <div>
-        <hr>
-    </div>
     <p class="float-right">
         <a href="#">Back to top</a>
     </p>

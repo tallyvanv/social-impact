@@ -1,5 +1,5 @@
 $maincolor: white;
-$secondcolor: #d3d3d3;
+$secondcolor: #F8F9FA;
 
 body {
   margin: 0;
@@ -15,7 +15,7 @@ body {
   width: 100%;
   z-index: 1000;
   margin-top: -20px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #signedbooks {
@@ -25,6 +25,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
   .row {
     align-content: center;
   }
