@@ -4,19 +4,32 @@ body {
 
 .navbar {
   background-color: white;
+  color: black;
   position: fixed;
   width: 100%;
   z-index: 10;
-  margin: 0px;
-  padding: 0px;
+  margin-top: -20px;
+  padding-top: 50px;
+}
+.navbar a {
+  text-decoration: none;
 }
 
 #signedbooks {
   background-color: lightslategray;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  text-align: center;
+}
+#signedbooks .row {
+  align-content: center;
 }
 
 .bd-example {
-  margin-top: 0px;
+  padding-top: 50px;
 }
 
 .main-text {
